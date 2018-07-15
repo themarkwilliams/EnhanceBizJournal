@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name "Enhance BizJournal"
-// @version 1.0
+// @name Enhance BizJournal
+// @version 1.1
 // @description "A user script to automatically bypass the paywall by marking the content as free."
 // @match https://*.bizjournals.com/*
 // @run-at document-start
