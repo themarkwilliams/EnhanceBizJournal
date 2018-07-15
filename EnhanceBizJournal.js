@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name Enhance BizJournal
-// @version 1.1
+// @version 1.2
 // @description "A user script to automatically bypass the paywall by marking the content as free."
 // @match https://*.bizjournals.com/*
 // @run-at document-start
@@ -10,3 +10,5 @@
 // ==/UserScript==
 
 GM_addStyle('.pre-chunks { display:block !important; }'); // 5/8/18
+
+GM_addStyle('.js-pre-chunks__story-body { display:block !important; }'); // 7/14/18
