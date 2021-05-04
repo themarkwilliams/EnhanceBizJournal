@@ -13,4 +13,10 @@ GM_addStyle('.pre-chunks { display:block !important; }'); // 5/8/18
 
 GM_addStyle('.js-pre-chunks__story-body { display:block !important; }'); // 7/14/18
 
+sleep(5000);
+
 GM_addStyle('.sheet-overlay { display:block !important; }'); // 5/4/21
+
+function sleep(ms) { //5/9/19
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
